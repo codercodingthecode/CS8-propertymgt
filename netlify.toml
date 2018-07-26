@@ -1,4 +1,4 @@
 [build]
-  base    = "src/lspmgt_frontend/
+  base    = "src/lspmgt_frontend/"
   publish = "src/lspmgt_frontend/dist"
   command = "npm run build && serve -s build"
