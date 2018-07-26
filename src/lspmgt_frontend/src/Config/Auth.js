@@ -7,7 +7,7 @@ const AmplifyConfig = {
       // OPTIONAL - Amazon Cognito User Pool ID
       userPoolId: process.env.upid, 
       // OPTIONAL - Amazon Cognito Web Client ID
-      userPoolWebClientId: upwci 
+      userPoolWebClientId: process.env.upwci 
     },
   };
   
