@@ -1,0 +1,4 @@
+[build]
+  base    = "/src/lspmgt_frontend/"
+#  publish = "dist/"
+  command = "npm run build"
